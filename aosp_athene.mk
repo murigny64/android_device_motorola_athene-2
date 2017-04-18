@@ -18,9 +18,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit AOSP device configuration for athene
 $(call inherit-product, device/motorola/athene/device.mk)
 
-# Gapps
-$(call inherit-product-if-exists, vendor/gapps/arm-phone-gapps.mk)
-
 # Set those variables here to overwrite the inherited values.
 
 BOARD_VENDOR := Motorola
