@@ -145,7 +145,7 @@ camera.lowpower.record.enable=1
 camera.display.lmax=1280x720
 camera.display.umax=1920x1080
 persist.camera.HAL3.enabled=1
-camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.snapchat.android,com.instagram.android
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.snapchat.android,com.instagram.android,com.telegram.android
 
 # CNE
 persist.cne.feature=1
@@ -168,11 +168,13 @@ media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
 media.aac_51_output_enabled=true
 mmp.enable.3g2=true
+ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.aud.fileformat=qcp
 ro.media.enc.aud.codec=qcelp
 ro.media.enc.aud.bps=13300
 ro.media.enc.aud.ch=1
 ro.media.enc.aud.hz=8000
+ro.media.enc.hprof.vid.bps=8000000
 av.offload.enable=false
 use.voice.path.for.pcm.voip=false
 media.msm8956.version=0
