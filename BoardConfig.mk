@@ -172,6 +172,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 # SDClang
 TARGET_USE_SDCLANG := true
 
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
@@ -187,3 +188,5 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake
