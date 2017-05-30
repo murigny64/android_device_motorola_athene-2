@@ -2,37 +2,37 @@
   {
     "remote": "github",
     "repository":  "flar2/kernel-msm",
-    "target_path": "kernel/motorola/msm8952"
-    "branch": "ElementalX-1.00-LOS",
+    "target_path": "kernel/motorola/msm8952",
+    "branch": "ElementalX-1.00-LOS"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_external_bson",
-    "target_path": "external/bson"
-    "branch": "cm-14.1",
+    "target_path": "external/bson",
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository": "android_external_stlport",
-    "target_path": "external/stlport"
-    "branch": "cm-14.1",
+    "target_path": "external/stlport",
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
-    "branch": "cm-14.1",
+    "target_path": "device/qcom/common",
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
-    "branch": "cm-14.1",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository":  "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola"
-    "branch": "cm-14.1",
+    "target_path": "vendor/motorola",
+    "branch": "cm-14.1"
   }
 ]
