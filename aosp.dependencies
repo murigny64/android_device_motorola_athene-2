@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository":  "flar2/kernel-msm",
+    "repository":  "XPerience-AOSP-Lollipop/android_kernel_motorola_msm8952",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "ElementalX-1.00-LOS"
+    "branch": "xpe-11.1"
   },
   {
     "remote": "github",
