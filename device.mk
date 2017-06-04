@@ -110,7 +110,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/apps/MotCamera.apk:system/priv-app/MotCamera/MotCamera.apk \
     $(LOCAL_PATH)/prebuilts/libs/libjni_mot_mosaic.so:system/priv-app/MotCamera/lib/arm/libjni_mot_mosaic.so \
-    $(LOCAL_PATH)/prebuilts/libs/libMobileOcrEngine.so:system/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so
+    $(LOCAL_PATH)/prebuilts/libs/libMobileOcrEngine.so:system/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_cpp_preview.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_cpp_video.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx258_cpp_video_4k.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_default_video.so:system/vendor/lib/libchromatix_mot_imx258_default_video.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video_4k.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_preview.so:system/vendor/lib/libchromatix_mot_imx258_preview.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_snapshot.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libchromatix_mot_imx258_video_4k.so:system/vendor/lib/libchromatix_mot_imx258_video_4k.so \
+    $(LOCAL_PATH)/prebuilts/vendor/libmmcamera_mot_imx258.so:system/vendor/lib/libmmcamera_mot_imx258.so
 
 # CMActions
 PRODUCT_PACKAGES += \
